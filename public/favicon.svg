@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 64" fill="none">
+  <defs>
+    <linearGradient id="nx-bg" x1="0" y1="0" x2="80" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#02050D"/>
+      <stop offset="100%" stop-color="#07142B"/>
+    </linearGradient>
+    <linearGradient id="nx-silver" x1="18" y1="12" x2="54" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="55%" stop-color="#D8E6F8"/>
+      <stop offset="100%" stop-color="#00B4FF"/>
+    </linearGradient>
+    <linearGradient id="nx-cyan" x1="58" y1="14" x2="26" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00F5FF"/>
+      <stop offset="55%" stop-color="#0088FF"/>
+      <stop offset="100%" stop-color="#0044CC"/>
+    </linearGradient>
+    <linearGradient id="nx-orbit" x1="6" y1="48" x2="74" y2="14" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00F5FF"/>
+      <stop offset="50%" stop-color="#0077FF" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#00F5FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="80" height="64" rx="14" fill="url(#nx-bg)"/>
+  <!-- Tilted Glowing Orbital Ring -->
+  <ellipse cx="40" cy="33" rx="33" ry="12" transform="rotate(-22 40 33)" stroke="url(#nx-orbit)" stroke-width="2.4"/>
+  <!-- X Cyan Diagonal Wing -->
+  <path d="M44 26L54 15H65L50 31L44 26Z" fill="url(#nx-cyan)"/>
+  <path d="M24 22L46 48H54L30 20L24 22Z" fill="url(#nx-cyan)"/>
+  <!-- N Metallic Main Body -->
+  <path d="M22 48V18C22 16.5 23 16 24.5 17.5L49 44V48H29V31L29 43C29 46 26.5 48 22 48Z" fill="url(#nx-silver)" opacity="0.15"/>
+  <path d="M21 48V18L29 26V42C29 45.5 26 48 21 48Z" fill="url(#nx-silver)"/>
+  <path d="M24 14H34L62 48H51L24 14Z" fill="url(#nx-silver)"/>
+  <!-- Orbital Flare Nodes -->
+  <circle cx="11" cy="44" r="2.5" fill="#00F5FF"/>
+  <circle cx="69" cy="21" r="2.5" fill="#00F5FF"/>
+</svg>
