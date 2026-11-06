@@ -454,7 +454,16 @@ export function NexoraHeroCore({
           {/* ==============================================================
               4. PEDESTAL HOLOGRÁFICO CIRCULAR EM 3 NÍVEIS METÁLICOS
              ============================================================== */}
-          <g filter={`url(#${uid}-pedestal-shadow)`}>
+          <g>
+            {/* Sombra Vetorial Nativa sob a Base (100% compatível com GPU Mobile) */}
+            <ellipse
+              cx="500"
+              cy="638"
+              rx="315"
+              ry="34"
+              fill="#000000"
+              opacity="0.75"
+            />
             {/* TIER 1 (Base Larga Metálica) */}
             <path
               d="M 195 604 L 195 632 A 305 32 0 0 0 805 632 L 805 604 Z"
@@ -473,15 +482,13 @@ export function NexoraHeroCore({
             <path
               d="M 195 632 A 305 32 0 0 0 805 632"
               stroke="#00F5FF"
-              strokeWidth="3"
-              filter={`url(#${uid}-glow-soft)`}
+              strokeWidth="3.5"
             />
             <path
               d="M 390 618 A 305 30 0 0 0 510 622"
               stroke="#00F5FF"
-              strokeWidth="4.5"
+              strokeWidth="5"
               strokeLinecap="round"
-              filter={`url(#${uid}-glow-strong)`}
             />
 
             {/* TIER 2 (Anel Intermediário) */}
@@ -510,7 +517,6 @@ export function NexoraHeroCore({
               stroke="#FFFFFF"
               strokeWidth="4"
               strokeLinecap="round"
-              filter={`url(#${uid}-glow-strong)`}
             />
 
             {/* TIER 3 (Emissor Holográfico Superior) */}
@@ -526,7 +532,6 @@ export function NexoraHeroCore({
               fill="#041533"
               stroke="#00F5FF"
               strokeWidth="2.5"
-              filter={`url(#${uid}-glow-soft)`}
             />
           </g>
 
@@ -581,7 +586,7 @@ export function NexoraHeroCore({
           {/* ==============================================================
               6. ESCULTURA MONOLÍTICA 3D 'N' (EXTRUDADA EM ALTA PRECISÃO)
              ============================================================== */}
-          <g filter={`url(#${uid}-pedestal-shadow)`}>
+          <g>
             {/* Base Inferior 3D da Perna Esquerda */}
             <polygon
               points="250,468 345,478 398,496 303,486"
@@ -672,15 +677,23 @@ export function NexoraHeroCore({
               strokeLinejoin="round"
             />
 
-            {/* Canal de Luz Neon Interno em 'V' Invertido */}
+            {/* Canal de Luz Neon Interno em 'V' Invertido (Camada de Halo Vetorial + Núcleo Branco) */}
+            <polyline
+              points="345,478 386,274 608,464"
+              fill="none"
+              stroke="#00F5FF"
+              strokeOpacity="0.35"
+              strokeWidth="14"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
             <polyline
               points="345,478 386,274 608,464"
               fill="none"
               stroke={`url(#${uid}-neon-channel)`}
-              strokeWidth="7"
+              strokeWidth="6.5"
               strokeLinecap="round"
               strokeLinejoin="round"
-              filter={`url(#${uid}-glow-strong)`}
             />
             <polyline
               points="345,478 386,274 608,464"
@@ -696,10 +709,18 @@ export function NexoraHeroCore({
               points="702,122 644,436 608,468"
               fill="none"
               stroke="#00F5FF"
+              strokeOpacity="0.35"
+              strokeWidth="12"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <polyline
+              points="702,122 644,436 608,468"
+              fill="none"
+              stroke="#00F5FF"
               strokeWidth="5.5"
               strokeLinecap="round"
               strokeLinejoin="round"
-              filter={`url(#${uid}-glow-strong)`}
             />
             <polyline
               points="702,122 644,436 608,468"
@@ -717,9 +738,18 @@ export function NexoraHeroCore({
               x2="345"
               y2="478"
               stroke="#00F5FF"
+              strokeOpacity="0.4"
+              strokeWidth="11"
+              strokeLinecap="round"
+            />
+            <line
+              x1="250"
+              y1="468"
+              x2="345"
+              y2="478"
+              stroke="#00F5FF"
               strokeWidth="5"
               strokeLinecap="round"
-              filter={`url(#${uid}-glow-strong)`}
             />
           </g>
 
