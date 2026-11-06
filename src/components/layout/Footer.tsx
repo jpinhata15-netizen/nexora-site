@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { ArrowUpRight, Shield, Sparkles } from "lucide-react";
+import { ArrowUpRight, Shield, Lock } from "lucide-react";
 import { NexoraLogo } from "@/components/brand/NexoraLogo";
 import {
   siteConfig,
@@ -228,6 +228,14 @@ export function Footer({
             >
               Voltar ao topo ↑
             </button>
+            <Link
+              href="/prospeccao"
+              title="Acesso restrito NEXORA"
+              aria-label="Acesso restrito NEXORA"
+              className="text-slate-600 hover:text-[#00E5FF] transition-colors"
+            >
+              <Lock className="w-3.5 h-3.5" />
+            </Link>
           </div>
         </div>
       </div>
