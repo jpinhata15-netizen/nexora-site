@@ -192,38 +192,6 @@ export function ServicesSection({ onSelectServiceForQuote }: ServicesSectionProp
                   ))}
                 </div>
               </div>
-
-              {/* Interactive Blueprint Layers Visualization */}
-              <div className="rounded-2xl border border-[#00D4FF]/25 bg-[#020611]/90 p-5 space-y-3">
-                <div className="flex items-center justify-between">
-                  <span className="font-mono text-[10px] uppercase tracking-widest text-slate-400 flex items-center gap-1.5">
-                    <Layers className="w-3.5 h-3.5 text-[#00F5FF]" />
-                    {activeService.visualBlueprint.telemetryLabel}
-                  </span>
-                  <span className="font-mono text-[10px] text-[#00F5FF]">
-                    ESTRUTURA DO PROJETO
-                  </span>
-                </div>
-
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-1">
-                  {activeService.visualBlueprint.layers.map((layer, idx) => (
-                    <div
-                      key={layer}
-                      className="rounded-xl border border-[#00D4FF]/20 bg-[#051026] p-3.5 flex flex-col justify-between gap-2"
-                    >
-                      <div className="flex items-center justify-between">
-                        <span className="font-mono text-[10px] font-bold text-[#00F5FF]">
-                          CAMADA 0{idx + 1}
-                        </span>
-                        <Sparkles className="w-3.5 h-3.5 text-[#00F5FF]" />
-                      </div>
-                      <p className="text-xs font-medium text-white leading-snug">
-                        {layer}
-                      </p>
-                    </div>
-                  ))}
-                </div>
-              </div>
             </div>
 
             {/* O Problema que Resolve */}

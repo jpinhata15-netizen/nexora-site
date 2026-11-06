@@ -27,7 +27,6 @@ export function WhyNexoraSection() {
     Smartphone,
     Compass,
     Zap,
-    Search,
     Cpu,
     Users,
   ];
@@ -163,7 +162,7 @@ export function WhyNexoraSection() {
           </div>
         </div>
 
-        {/* 8 Differentiators Holographic Bento Grid */}
+        {/* 7 Differentiators Holographic Bento Grid */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-5">
           {differentiatorsData.map((item, idx) => {
             const Icon = icons[idx % icons.length];
@@ -174,11 +173,7 @@ export function WhyNexoraSection() {
                 ? "lg:col-span-5"
                 : idx === 2 || idx === 3 || idx === 4
                 ? "lg:col-span-4"
-                : idx === 5
-                ? "lg:col-span-5"
-                : idx === 6
-                ? "lg:col-span-4"
-                : "lg:col-span-3";
+                : "lg:col-span-6";
 
             return (
               <div
@@ -250,7 +245,7 @@ export function WhyNexoraSection() {
                 {[
                   "Templates prontos repetidos para várias empresas sem identidade própria",
                   "Visual simples que não transmite autoridade nem valoriza seus serviços",
-                  "Lentidão no celular e estrutura fraca para aparecer no Google",
+                  "Lentidão no carregamento e falhas de adaptação no celular",
                   "Botões e formulários sem estratégia comercial para converter visitantes",
                 ].map((txt) => (
                   <li key={txt} className="flex items-start gap-2.5">
@@ -269,7 +264,7 @@ export function WhyNexoraSection() {
                 {[
                   "Design tecnológico e autoral pensado exclusivamente para a sua empresa",
                   "Impacto visual imediato que destaca sua marca nos primeiros segundos",
-                  "Alta performance, carregamento rápido e estrutura preparada para SEO",
+                  "Alta performance, carregamento rápido e adaptação perfeita para celular",
                   "Foco total em transformar visitantes em contatos e orçamentos reais",
                 ].map((txt) => (
                   <li key={txt} className="flex items-start gap-2.5">

@@ -59,7 +59,7 @@ export function HomePortalsSection({ onNavigateTab }: HomePortalsSectionProps) {
         "Descubra a filosofia de engenharia, design autoral e visão estratégica que diferencia a NEXORA das agências e templates convencionais.",
       bullets: [
         "Desenvolvimento 100% personalizado para cada cliente",
-        "Performance extrema, SEO técnico e responsividade",
+        "Performance extrema e responsividade em todos os dispositivos",
         "Atendimento consultivo próximo do início à entrega",
       ],
       ctaLabel: "Conhecer a Marca NEXORA",

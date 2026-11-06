@@ -77,7 +77,7 @@ export const methodologySteps: MethodologyStep[] = [
     keyOutputs: [
       "Codificação moderna (React, Next.js, TypeScript e APIs)",
       "Implementação de interações, animações suaves e formulários reais",
-      "Estruturação semântica preparada para motores de busca (SEO)",
+      "Desenvolvimento responsivo e acabamento visual de alta precisão",
     ],
     clientTouchpoint: "Demonstrações de progresso em ambiente de homologação",
   },
@@ -158,17 +158,8 @@ export const differentiatorsData: DifferentiatorItem[] = [
     category: "performance",
   },
   {
-    id: "estrutura-seo",
-    code: "NX-06",
-    title: "Estrutura preparada para SEO",
-    description:
-      "Aplicamos HTML semântico, hierarquia correta de títulos, metadados completos, Open Graph, sitemap e velocidade de renderização para favorecer sua visibilidade orgânica.",
-    technicalProof: "Semântica W3C, Meta Tags dinâmicas, Sitemap.xml e Robots.txt",
-    category: "performance",
-  },
-  {
     id: "tecnologias-modernas",
-    code: "NX-07",
+    code: "NX-06",
     title: "Tecnologias modernas",
     description:
       "Utilizamos o mesmo ecossistema tecnológico adotado pelas principais empresas globais de tecnologia, garantindo segurança, estabilidade e facilidade de evolução futura.",
@@ -177,7 +168,7 @@ export const differentiatorsData: DifferentiatorItem[] = [
   },
   {
     id: "acompanhamento-desenvolvimento",
-    code: "NX-08",
+    code: "NX-07",
     title: "Acompanhamento durante o desenvolvimento",
     description:
       "Você participa das decisões-chave com transparência e proximidade, validando a estratégia, o design e a evolução funcional em etapas claras do início à entrega.",

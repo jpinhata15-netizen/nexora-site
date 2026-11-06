@@ -42,15 +42,13 @@ export const servicesData: ServiceItem[] = [
       "Design exclusivo com identidade visual alinhada à força da sua marca",
       "Páginas completas de apresentação, soluções, portfólio, diferenciais e contato",
       "Integração direta com WhatsApp e formulário inteligente de orçamento",
-      "Estrutura otimizada para aparecer no Google (SEO) e carregar rapidamente no celular",
     ],
     benefits: [
       "Autoridade imediata logo nos primeiros segundos de visita",
       "Destaque absoluto frente à concorrência do seu setor",
       "Funcionamento impecável em smartphones, tablets e computadores",
-      "Canal próprio de captação comercial ativo 24 horas por dia",
     ],
-    deliverablesTag: ["Design Exclusivo", "Mobile-First", "SEO Google", "Alta Credibilidade"],
+    deliverablesTag: ["Design Exclusivo", "Mobile-First", "Alta Credibilidade"],
     visualBlueprint: {
       architectureType: "institucional",
       telemetryLabel: "CORPORATE_WEB_EXPERIENCE // HIGH_AUTHORITY",
@@ -211,7 +209,6 @@ export const servicesData: ServiceItem[] = [
     whatWeBuild: [
       "Reconstrução completa do design visual, tipografia e experiência de navegação",
       "Adaptação total para telas modernas de smartphones, tablets e monitores widescreen",
-      "Otimização profunda de velocidade de carregamento e estrutura para o Google (SEO)",
       "Reorganização comercial dos textos e botões para gerar mais contatos e orçamentos",
     ],
     benefits: [
