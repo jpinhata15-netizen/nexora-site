@@ -67,13 +67,6 @@ export function ServicesSection({ onSelectServiceForQuote }: ServicesSectionProp
         {/* Futuristic Header */}
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 pb-12 border-b border-[#00D4FF]/20">
           <div className="space-y-4 max-w-3xl">
-            <div className="inline-flex items-center gap-2.5 rounded-full border border-[#00D4FF]/40 bg-[#04122C]/80 px-4 py-1.5">
-              <span className="h-2 w-2 rounded-full bg-[#00F5FF] shadow-[0_0_10px_#00F5FF]" />
-              <span className="font-sans text-xs font-semibold uppercase tracking-[0.22em] text-[#00F5FF]">
-                ESPECIALISTAS EM CRIAÇÃO DE SITES
-              </span>
-            </div>
-
             <h2
               className="text-3xl sm:text-5xl font-black uppercase tracking-wide text-white leading-[1.1]"
               style={{

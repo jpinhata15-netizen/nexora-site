@@ -82,17 +82,6 @@ export function HeroSection({
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           {/* Left Column: Monumental Typography, Slogan & Larger Clickable Action Buttons */}
           <div className="lg:col-span-7 xl:col-span-6 space-y-6 sm:space-y-8 z-20">
-            {/* Top Pill Badge: ● DESENVOLVIMENTO DIGITAL */}
-            <div className="inline-flex items-center gap-3 rounded-full border border-[#00D4FF]/40 bg-[#041026]/90 px-5 py-2.5 backdrop-blur-md shadow-[0_0_24px_rgba(0,180,255,0.22)]">
-              <span className="relative flex h-3 w-3">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#00F5FF] opacity-80" />
-                <span className="relative inline-flex rounded-full h-3 w-3 bg-[#00F5FF] shadow-[0_0_10px_#00F5FF]" />
-              </span>
-              <span className="font-sans text-xs sm:text-sm font-bold uppercase tracking-[0.22em] text-slate-100">
-                DESENVOLVIMENTO DIGITAL
-              </span>
-            </div>
-
             {/* Monumental 3-Line Headline: NEXORΛ / TECNOLOGIA QUE / MOVE NEGÓCIOS. */}
             <div className="space-y-1">
               <h1 className="leading-[1.05] tracking-wide">

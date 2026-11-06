@@ -74,11 +74,6 @@ export function Footer({
             <p className="text-xs sm:text-sm text-slate-400 leading-relaxed">
               {siteConfig.positioning}
             </p>
-
-            <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.03] px-3.5 py-1.5 font-mono text-[11px] text-[#00E5FF]">
-              <Sparkles className="w-3.5 h-3.5" />
-              <span>{siteConfig.tagline}</span>
-            </div>
           </div>
 
           {/* Column 2 (2 cols): Navegação */}

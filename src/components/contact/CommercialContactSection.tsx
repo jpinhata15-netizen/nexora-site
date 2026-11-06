@@ -241,11 +241,6 @@ export function CommercialContactSection({
 
           <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             <div className="lg:col-span-8 space-y-4">
-              <div className="inline-flex items-center gap-2.5 rounded-full border border-[#00F5FF]/40 bg-[#020611]/70 px-4 py-1.5 font-sans text-xs font-semibold uppercase tracking-[0.2em] text-[#00F5FF]">
-                <span className="h-2 w-2 rounded-full bg-[#00F5FF] shadow-[0_0_8px_#00F5FF]" />
-                <span>PRONTO PARA EVOLUIR SUA PRESENÇA DIGITAL?</span>
-              </div>
-
               <h2
                 className="text-3xl sm:text-5xl font-black text-white uppercase tracking-wide leading-[1.08]"
                 style={{
