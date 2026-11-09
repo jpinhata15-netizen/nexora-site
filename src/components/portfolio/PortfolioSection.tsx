@@ -61,7 +61,7 @@ export function PortfolioSection({ onOpenProject }: PortfolioSectionProps) {
             <p className="text-base sm:text-lg text-slate-300 leading-relaxed border-l-2 border-[#00F5FF] pl-4">
               Explore as capturas reais em alta definição dos projetos
               desenvolvidos. Clique em qualquer vitrine para abrir a demonstração
-              completa em tela cheia dentro da própria NEXORA.
+              completa em tela cheia dentro da própria NORDARA.
             </p>
           </div>
 

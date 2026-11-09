@@ -86,7 +86,7 @@ export function MethodologySection() {
             <div
               className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3.5 relative z-10"
               role="tablist"
-              aria-label="Etapas da metodologia NEXORA"
+              aria-label="Etapas da metodologia NORDARA"
             >
               {methodologySteps.map((step, idx) => {
                 const Icon = stepIcons[idx];

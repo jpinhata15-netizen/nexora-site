@@ -282,7 +282,7 @@ export function CommercialContactSection({
           <div className="lg:col-span-5 space-y-6">
             <div className="space-y-3">
               <div className="font-mono text-xs uppercase tracking-[0.22em] text-[#00F5FF]">
-                ATENDIMENTO COMERCIAL // NEXORA
+                ATENDIMENTO COMERCIAL // NORDARA
               </div>
               <h3
                 className="text-2xl sm:text-3xl font-extrabold text-white uppercase"
@@ -380,7 +380,7 @@ export function CommercialContactSection({
                 {emailReady ? (
                   <a
                     href={`mailto:${siteConfig.contact.commercialEmail}?subject=${encodeURIComponent(
-                      "Solicitação de Orçamento de Site — NEXORA"
+                      "Solicitação de Orçamento de Site — NORDARA"
                     )}`}
                     className="inline-flex items-center gap-2 text-xs font-bold text-[#00F5FF] hover:underline"
                   >

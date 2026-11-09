@@ -93,7 +93,7 @@ export function ServicesSection({ onSelectServiceForQuote }: ServicesSectionProp
           <div
             className="lg:col-span-5 space-y-3"
             role="tablist"
-            aria-label="Modalidades de sites desenvolvidos pela NEXORA"
+            aria-label="Modalidades de sites desenvolvidos pela NORDARA"
           >
             {servicesData.map((service) => {
               const Icon = getServiceIcon(service.visualBlueprint.architectureType);

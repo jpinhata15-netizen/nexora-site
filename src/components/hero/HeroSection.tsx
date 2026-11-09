@@ -82,17 +82,17 @@ export function HeroSection({
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           {/* Left Column: Monumental Typography, Slogan & Larger Clickable Action Buttons */}
           <div className="lg:col-span-7 xl:col-span-6 space-y-6 sm:space-y-8 z-20">
-            {/* Monumental 3-Line Headline: NEXORΛ / TECNOLOGIA QUE / MOVE NEGÓCIOS. */}
+            {/* Monumental 3-Line Headline: NORDΛRΛ / TECNOLOGIA QUE / MOVE NEGÓCIOS. */}
             <div className="space-y-1">
               <h1 className="leading-[1.05] tracking-wide">
-                {/* Line 1: NEXORΛ */}
+                {/* Line 1: NORDΛRΛ */}
                 <span
                   className="block text-4xl sm:text-6xl md:text-7xl xl:text-[78px] font-black uppercase tracking-[0.14em] text-transparent bg-clip-text bg-gradient-to-b from-white via-slate-100 to-[#93C5FD] drop-shadow-[0_4px_24px_rgba(0,180,255,0.28)]"
                   style={{
                     fontFamily: "'Orbitron', var(--font-space-grotesk), sans-serif",
                   }}
                 >
-                  NEXORΛ
+                  NORDΛRΛ
                 </span>
 
                 {/* Line 2: TECNOLOGIA QUE */}
@@ -159,7 +159,7 @@ export function HeroSection({
               </button>
             </div>
 
-            {/* Quick Interactive Section Pills to Open Exclusive Views (Serviços & Sobre a NEXORA) */}
+            {/* Quick Interactive Section Pills to Open Exclusive Views (Serviços & Sobre a NORDARA) */}
             <div className="flex flex-wrap items-center gap-3 pt-1">
               <button
                 type="button"
@@ -185,7 +185,7 @@ export function HeroSection({
                 className="inline-flex items-center gap-2.5 rounded-full border border-white/15 bg-white/[0.04] hover:border-[#00F5FF]/60 hover:bg-[#00D4FF]/10 px-5 py-2.5 text-sm font-semibold text-slate-200 hover:text-white transition-all"
               >
                 <Sparkles className="w-4 h-4 text-[#00F5FF]" />
-                <span>Por que a marca NEXORA</span>
+                <span>Por que a marca NORDARA</span>
                 <ArrowRight className="w-3.5 h-3.5 text-[#00F5FF]" />
               </button>
             </div>

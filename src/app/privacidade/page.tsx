@@ -7,7 +7,7 @@ import { siteConfig } from "@/config/site";
 export const metadata = {
   title: "Política de Privacidade e Proteção de Dados",
   description:
-    "Política de Privacidade, confidencialidade e tratamento de dados comerciais da NEXORA.",
+    "Política de Privacidade, confidencialidade e tratamento de dados comerciais da NORDARA.",
 };
 
 export default function PrivacidadePage() {
@@ -15,7 +15,7 @@ export default function PrivacidadePage() {
     <main className="min-h-screen bg-[#050811] text-[#F4F7FB] py-16 px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-4xl space-y-10">
         <div className="flex items-center justify-between border-b border-white/10 pb-6">
-          <Link href="/" aria-label="Voltar para a página inicial da NEXORA">
+          <Link href="/" aria-label="Voltar para a página inicial da NORDARA">
             <NexoraLogo variant="full" theme="dark" size="md" showTagline />
           </Link>
 
@@ -49,7 +49,7 @@ export default function PrivacidadePage() {
                 1. Coleta de Informações no Formulário Comercial
               </h2>
               <p>
-                A <strong>NEXORA</strong> coleta exclusivamente as informações
+                A <strong>NORDARA</strong> coleta exclusivamente as informações
                 fornecidas de maneira voluntária pelo usuário ao solicitar um
                 orçamento ou contato comercial: nome, nome da empresa, e-mail,
                 telefone/WhatsApp, tipo de projeto desejado, faixa estimada de
@@ -77,7 +77,7 @@ export default function PrivacidadePage() {
               <p>
                 Todas as ideias de produtos, regras de negócio e informações
                 empresariais compartilhadas conosco são tratadas sob rigoroso
-                sigilo profissional. A NEXORA não comercializa, aluga ou cede
+                sigilo profissional. A NORDARA não comercializa, aluga ou cede
                 dados de clientes e parceiros a terceiros.
               </p>
             </section>
@@ -98,7 +98,7 @@ export default function PrivacidadePage() {
           <div className="pt-6 border-t border-white/10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div className="flex items-center gap-2 text-xs text-slate-400 font-mono">
               <Lock className="w-4 h-4 text-[#00E5FF]" />
-              <span>NEXORA — Transformando ideias em experiências digitais.</span>
+              <span>NORDARA — Transformando ideias em experiências digitais.</span>
             </div>
 
             <Link

@@ -59,14 +59,14 @@ export function WhyNexoraSection() {
             </h2>
 
             <p className="text-base sm:text-lg text-slate-300 leading-relaxed border-l-2 border-[#00F5FF] pl-4">
-              A <strong className="text-white">NEXORA</strong> nasceu para romper
+              A <strong className="text-white">NORDARA</strong> nasceu para romper
               com sites genéricos e experiências digitais sem personalidade.
               Unimos design de alto impacto, engenharia moderna e visão comercial
               para posicionar sua empresa sempre à frente.
             </p>
           </div>
 
-          {/* Right Column: 100% Vector Ultra-HD Official NEXORA Logo & Slogan Stage */}
+          {/* Right Column: 100% Vector Ultra-HD Official NORDARA Logo & Slogan Stage */}
           <div className="lg:col-span-6">
             <div className="relative overflow-hidden rounded-3xl border border-[#00F5FF]/45 bg-[#02050D] p-8 sm:p-12 shadow-[0_25px_80px_rgba(0,0,0,0.9),0_0_50px_rgba(0,195,255,0.22)] flex flex-col items-center justify-center min-h-[340px]">
               {/* Diagonal Metallic Blue Beams & PCB Circuit Lines (Matching Attachment 1 in 4K Vector) */}
@@ -117,7 +117,7 @@ export function WhyNexoraSection() {
                 <NexoraLogo variant="symbol" size="xl" />
               </div>
 
-              {/* Crisp Vector NEXORΛ Wordmark */}
+              {/* Crisp Vector NORDΛRΛ Wordmark */}
               <div
                 className="relative z-10 mt-2 flex items-center select-none font-black uppercase tracking-[0.16em] text-3xl sm:text-5xl leading-none"
                 style={{
@@ -125,13 +125,13 @@ export function WhyNexoraSection() {
                 }}
               >
                 <span className="bg-gradient-to-b from-white via-[#F1F5F9] to-[#94A3B8] bg-clip-text text-transparent">
-                  NE
+                  NO
                 </span>
                 <span className="bg-gradient-to-tr from-[#0055FF] via-[#00B4FF] to-[#00F5FF] bg-clip-text text-transparent drop-shadow-[0_0_16px_rgba(0,212,255,0.55)]">
-                  X
+                  RD
                 </span>
                 <span className="bg-gradient-to-b from-white via-[#F1F5F9] to-[#94A3B8] bg-clip-text text-transparent">
-                  OR
+                  AR
                 </span>
                 <span className="bg-gradient-to-b from-white via-[#E2E8F0] to-[#94A3B8] bg-clip-text text-transparent">
                   Λ
@@ -208,7 +208,7 @@ export function WhyNexoraSection() {
           })}
         </div>
 
-        {/* Contrast Matrix: Sites Comuns vs. Padrão NEXORA */}
+        {/* Contrast Matrix: Sites Comuns vs. Padrão NORDARA */}
         <div className="mt-16 rounded-3xl border border-[#00D4FF]/35 bg-gradient-to-b from-[#06142E] to-[#02050D] p-6 sm:p-10 shadow-[0_25px_80px_rgba(0,0,0,0.8)] relative overflow-hidden">
           <div
             className="pointer-events-none absolute top-0 left-16 right-16 h-[2px] bg-gradient-to-r from-transparent via-[#00F5FF] to-transparent shadow-[0_0_15px_#00F5FF]"
@@ -225,7 +225,7 @@ export function WhyNexoraSection() {
                 fontFamily: "'Orbitron', var(--font-space-grotesk), sans-serif",
               }}
             >
-              Templates Comuns vs. Experiência NEXORA
+              Templates Comuns vs. Experiência NORDARA
             </h3>
           </div>
 
@@ -251,7 +251,7 @@ export function WhyNexoraSection() {
 
             <div className="rounded-2xl border border-[#00F5FF]/50 bg-[#00A8FF]/10 p-6 space-y-4 shadow-[0_0_30px_rgba(0,212,255,0.15)]">
               <div className="font-mono text-xs uppercase tracking-widest text-[#00F5FF] font-bold">
-                Padrão de Excelência NEXORA
+                Padrão de Excelência NORDARA
               </div>
               <ul className="space-y-3 text-sm text-white">
                 {[

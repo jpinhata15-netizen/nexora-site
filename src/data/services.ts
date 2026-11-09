@@ -24,7 +24,7 @@ export interface ServiceItem {
 }
 
 /**
- * SOLUÇÕES DA NEXORA — FOCO ESPECIALIZADO EM CRIAÇÃO DE SITES DE ALTO NÍVEL
+ * SOLUÇÕES DA NORDARA — FOCO ESPECIALIZADO EM CRIAÇÃO DE SITES DE ALTO NÍVEL
  */
 export const servicesData: ServiceItem[] = [
   {

@@ -80,7 +80,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const protocolId = `NX-${Date.now().toString(36).toUpperCase()}`;
+    const protocolId = `ND-${Date.now().toString(36).toUpperCase()}`;
     const timestamp = new Date().toISOString();
 
     const structuredBriefing = siteConfig.whatsappMessages.customBriefing({
@@ -109,7 +109,7 @@ export async function POST(request: NextRequest) {
         body: JSON.stringify({
           protocolId,
           timestamp,
-          source: "NEXORA Official Website",
+          source: "NORDARA Official Website",
           lead: {
             name,
             company,
@@ -146,10 +146,10 @@ export async function POST(request: NextRequest) {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          from: "NEXORA Orçamentos <onboarding@resend.dev>",
+          from: "NORDARA Orçamentos <onboarding@resend.dev>",
           to: [targetEmail],
           reply_to: email,
-          subject: `[Orçamento NEXORA ${protocolId}] ${projectType} — ${name}`,
+          subject: `[Orçamento NORDARA ${protocolId}] ${projectType} — ${name}`,
           text: `${structuredBriefing}\n\nE-mail: ${email}\nWhatsApp: ${whatsapp}\nProtocolo: ${protocolId}`,
         }),
       });

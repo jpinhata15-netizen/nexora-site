@@ -129,7 +129,7 @@ export function Navbar({
       }`}
     >
       <div className="w-full px-5 sm:px-10 lg:px-14 xl:px-20 flex items-center justify-between gap-4">
-        {/* Left: Official NEXORA Orbital Symbol | NEXORA Wordmark */}
+        {/* Left: Official NORDARA Orbital Symbol | NORDARA Wordmark */}
         <button
           type="button"
           onClick={() => {
@@ -140,7 +140,7 @@ export function Navbar({
           }}
           onMouseEnter={() => soundEngine.playHover()}
           className="text-left focus:outline-none rounded-xl shrink-0"
-          aria-label="NEXORA — Ir para a página inicial"
+          aria-label="NORDARA — Ir para a página inicial"
         >
           <NexoraLogo variant="full" theme="dark" size="md" showDivider />
         </button>

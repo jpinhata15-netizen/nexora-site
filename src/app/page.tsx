@@ -53,7 +53,7 @@ export default function HomePage() {
     (projectTypeOption: string, serviceTitle: string) => {
       setPreselectedProjectType(projectTypeOption);
       setPreselectedContextNote(
-        `Olá! Tenho interesse na criação de ${serviceTitle} com a NEXORA e gostaria de receber um orçamento personalizado para minha empresa.`
+        `Olá! Tenho interesse na criação de ${serviceTitle} com a NORDARA e gostaria de receber um orçamento personalizado para minha empresa.`
       );
       setActiveTab("inicio");
       setTimeout(() => {
@@ -79,7 +79,7 @@ export default function HomePage() {
       };
       setPreselectedProjectType(mapCategoryToType[project.categoryFilter]);
       setPreselectedContextNote(
-        `Analisei o projeto ${project.title} (${project.category}) no portfólio da NEXORA e gostaria de orçar um site com esse padrão de qualidade para meu negócio.`
+        `Analisei o projeto ${project.title} (${project.category}) no portfólio da NORDARA e gostaria de orçar um site com esse padrão de qualidade para meu negócio.`
       );
       setActiveTab("inicio");
       setTimeout(() => {
@@ -197,7 +197,7 @@ export default function HomePage() {
                     }`}
                   >
                     <Sparkles className="w-4 h-4" />
-                    <span>Sobre a NEXORA</span>
+                    <span>Sobre a NORDARA</span>
                   </button>
                 </div>
               </div>

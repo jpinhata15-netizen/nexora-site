@@ -54,15 +54,15 @@ export function HomePortalsSection({ onNavigateTab }: HomePortalsSectionProps) {
       tab: "sobre",
       badge: "03 // POSICIONAMENTO & DNA",
       title: "POR QUE A",
-      highlight: "MARCA NEXORΛ.",
+      highlight: "MARCA NORDΛRΛ.",
       description:
-        "Descubra a filosofia de engenharia, design autoral e visão estratégica que diferencia a NEXORA das agências e templates convencionais.",
+        "Descubra a filosofia de engenharia, design autoral e visão estratégica que diferencia a NORDARA das agências e templates convencionais.",
       bullets: [
         "Desenvolvimento 100% personalizado para cada cliente",
         "Performance extrema e responsividade em todos os dispositivos",
         "Atendimento consultivo próximo do início à entrega",
       ],
-      ctaLabel: "Conhecer a Marca NEXORA",
+      ctaLabel: "Conhecer a Marca NORDARA",
       icon: Sparkles,
     },
   ];
@@ -87,7 +87,7 @@ export function HomePortalsSection({ onNavigateTab }: HomePortalsSectionProps) {
             >
               EXPLORE O ECOSSISTEMA{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00F5FF] via-[#00A8FF] to-[#0066FF]">
-                NEXORΛ.
+                NORDΛRΛ.
               </span>
             </h2>
           </div>

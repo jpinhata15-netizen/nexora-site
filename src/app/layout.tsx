@@ -11,13 +11,13 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.domain),
   title: {
-    default: "NEXORA — Experiências Digitais Extraordinárias | Sites, Sistemas e IA",
-    template: "%s | NEXORA Digital Studio",
+    default: "NORDARA — Tecnologia que Move Negócios | Sites, Sistemas e IA",
+    template: "%s | NORDARA Digital Studio",
   },
   description:
     "Desenvolvemos experiências digitais, sites institucionais, landing pages, sistemas web personalizados, dashboards e soluções com Inteligência Artificial para empresas e profissionais.",
   keywords: [
-    "NEXORA",
+    "NORDARA",
     "desenvolvimento de sites",
     "sistemas web personalizados",
     "agência de desenvolvimento digital",
@@ -26,20 +26,20 @@ export const metadata: Metadata = {
     "dashboards e plataformas",
     "design de interfaces UI UX",
   ],
-  authors: [{ name: "NEXORA Digital Studio" }],
-  creator: "NEXORA",
+  authors: [{ name: "NORDARA Digital Studio" }],
+  creator: "NORDARA",
   openGraph: {
     type: "website",
     locale: "pt_BR",
     url: siteConfig.domain,
-    siteName: "NEXORA",
-    title: "NEXORA — Seu próximo salto digital começa aqui.",
+    siteName: "NORDARA",
+    title: "NORDARA — Tecnologia que Move Negócios.",
     description:
       "Transformamos ideias e necessidades de negócios em experiências digitais modernas, funcionais e visualmente extraordinárias.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "NEXORA — Experiências digitais extraordinárias.",
+    title: "NORDARA — Tecnologia que Move Negócios.",
     description:
       "Desenvolvimento de sites, plataformas, sistemas web e inteligência artificial sob medida.",
   },

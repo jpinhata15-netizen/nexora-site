@@ -10,9 +10,9 @@ interface NexoraLogoProps {
 }
 
 /**
- * LOGOTIPO OFICIAL NEXORA — Fiel à identidade visual enviada:
- * Símbolo N+X entrelaçado com anel orbital luminoso em ciano/azul elétrico,
- * tipografia sci-fi larga (com o 'X' bicolor e 'A' em chevron 'Λ') e slogan
+ * LOGOTIPO OFICIAL NORDARA — Fiel à identidade visual:
+ * Símbolo N entrelaçado com anel orbital luminoso em ciano/azul elétrico,
+ * tipografia sci-fi larga (com destaque bicolor e 'A' em chevron 'Λ') e slogan
  * "TECNOLOGIA QUE MOVE NEGÓCIOS."
  */
 export function NexoraLogo({
@@ -214,7 +214,7 @@ export function NexoraLogo({
       }`}
       style={{ fontFamily: "'Orbitron', var(--font-space-grotesk), sans-serif" }}
     >
-      <span>NE</span>
+      <span>NO</span>
       <span
         className={
           isMono
@@ -222,9 +222,9 @@ export function NexoraLogo({
             : "text-transparent bg-clip-text bg-gradient-to-tr from-[#0055FF] via-[#00D4FF] to-[#00F5FF] drop-shadow-[0_0_10px_rgba(0,229,255,0.45)]"
         }
       >
-        X
+        RD
       </span>
-      <span>OR</span>
+      <span>AR</span>
       {/* Stylized Crossbar-less Chevron 'A' ('Λ') matching the official logo */}
       <span className="inline-block">Λ</span>
     </div>

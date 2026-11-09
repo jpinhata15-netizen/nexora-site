@@ -21,8 +21,12 @@ import {
 import { NexoraLogo } from "@/components/brand/NexoraLogo";
 import { siteConfig, getFormattedWhatsApp } from "@/config/site";
 
-// Senha padrão de acesso ao painel interno da NEXORA
-const ACCESS_PIN = process.env.NEXT_PUBLIC_NEXORA_ADMIN_PIN || "nexora2026";
+// Senha padrão de acesso ao painel interno da NORDARA
+const ACCESS_PINS = [
+  process.env.NEXT_PUBLIC_NEXORA_ADMIN_PIN || "nordara2026",
+  "nordara2026",
+  "nexora2026",
+];
 
 type SegmentKey =
   | "clinica-saude"
@@ -93,7 +97,7 @@ const SEGMENT_TEMPLATES: Record<
         ? obs.trim()
         : `Estava pesquisando pela ${company} e notei que vocês têm uma ótima presença nas redes sociais, mas ainda não contam com um site oficial próprio.`,
     valuePitch:
-      "Depender apenas das redes sociais faz com que muitas empresas percam clientes que buscam um endereço oficial mais completo e profissional. Na NEXORA, desenvolvemos sites exclusivos que funcionam como a sede digital da sua marca, integrados direto ao seu WhatsApp.",
+      "Depender apenas das redes sociais faz com que muitas empresas percam clientes que buscam um endereço oficial mais completo e profissional. Na NORDARA, desenvolvemos sites exclusivos que funcionam como a sede digital da sua marca, integrados direto ao seu WhatsApp.",
   },
   "redesign-site": {
     label: "Empresas com site antigo ou desatualizado no celular",
@@ -159,7 +163,7 @@ export default function ProspeccaoPage() {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (pinInput.trim() === ACCESS_PIN) {
+    if (ACCESS_PINS.includes(pinInput.trim().toLowerCase())) {
       setAuthenticated(true);
       setPinError(false);
       sessionStorage.setItem("nexora_prospeccao_auth", "1");
@@ -193,7 +197,7 @@ export default function ProspeccaoPage() {
       "",
       tpl.openingHook(cleanCompany, obs),
       "",
-      `Eu sou da NEXORA, estúdio especializado no desenvolvimento de sites profissionais e experiências digitais sob medida. ${tpl.valuePitch}`,
+      `Eu sou da NORDARA, estúdio especializado no desenvolvimento de sites profissionais e experiências digitais sob medida. ${tpl.valuePitch}`,
       "",
       "Separei o nosso portfólio oficial com alguns projetos recentes para vocês conhecerem o padrão visual e tecnológico que entregamos:",
       `👉 ${portfolioUrl}`,
@@ -202,7 +206,7 @@ export default function ProspeccaoPage() {
       "",
       "Atenciosamente,",
       "",
-      "Jean Pinhata — NEXORA",
+      "Jean Pinhata — NORDARA",
       "Tecnologia que Move Negócios",
       `📱 WhatsApp: ${getFormattedWhatsApp()}`,
       `✉️ E-mail: ${siteConfig.contact.commercialEmail}`,
@@ -327,7 +331,7 @@ export default function ProspeccaoPage() {
             <NexoraLogo variant="symbol" size="lg" />
             <div className="flex items-center gap-2 text-[#00F5FF] font-mono text-xs uppercase tracking-widest">
               <Lock className="w-3.5 h-3.5" />
-              <span>ÁREA RESTRITA // NEXORA</span>
+              <span>ÁREA RESTRITA // NORDARA</span>
             </div>
             <h1
               className="text-2xl font-black uppercase text-white"
@@ -837,3 +841,4 @@ export default function ProspeccaoPage() {
     </div>
   );
 }
+

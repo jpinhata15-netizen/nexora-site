@@ -32,11 +32,11 @@ export interface PortfolioProject {
 }
 
 /**
- * DADOS OFICIAIS DO PORTFÓLIO NEXORA
- * ----------------------------------
+ * DADOS OFICIAIS DO PORTFÓLIO NORDARA
+ * -----------------------------------
  * Todos os projetos abaixo foram inspecionados individualmente e possuem
  * capturas reais armazenadas localmente em /public/portfolio/<slug>/.
- * Por diretriz estratégica da NEXORA, a exploração ocorre 100% dentro
+ * Por diretriz estratégica da NORDARA, a exploração ocorre 100% dentro
  * da galeria interativa interna, sem redirecionamentos externos.
  */
 export const portfolioProjects: PortfolioProject[] = [

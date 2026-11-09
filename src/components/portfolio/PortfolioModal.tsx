@@ -144,7 +144,7 @@ export function PortfolioModal({
                 {project.title}
               </h2>
               <p className="text-xs text-slate-400 truncate hidden sm:block">
-                {project.category} • Galeria Interna Verificada NEXORA
+                {project.category} • Galeria Interna Verificada NORDARA
               </p>
             </div>
           </div>
@@ -308,7 +308,7 @@ export function PortfolioModal({
                       <span className="w-2.5 h-2.5 rounded-full bg-emerald-400/70" />
                     </div>
                     <div className="rounded-md bg-white/[0.04] border border-white/[0.06] px-3 py-0.5 font-mono text-[10px] text-slate-400">
-                      nexora://showcase/{project.slug}/{currentScreenshot.id}
+                      nordara://showcase/{project.slug}/{currentScreenshot.id}
                     </div>
                     <div className="font-mono text-[10px] text-[#00E5FF]">
                       REAL CAPTURE
@@ -528,7 +528,7 @@ export function PortfolioModal({
                 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </button>
               <p className="text-center font-mono text-[11px] text-slate-400">
-                Demonstração oficial hospedada internamente na NEXORA • Sem redirecionamentos externos
+                Demonstração oficial hospedada internamente na NORDARA • Sem redirecionamentos externos
               </p>
             </div>
           </div>

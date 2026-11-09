@@ -1,8 +1,8 @@
 /**
- * ARQUIVO CENTRAL DE CONFIGURAÇÃO COMERCIAL E INSTITUCIONAL — NEXORA
- * ------------------------------------------------------------------
+ * ARQUIVO CENTRAL DE CONFIGURAÇÃO COMERCIAL E INSTITUCIONAL — NORDARA
+ * -------------------------------------------------------------------
  * Configure aqui (ou via variáveis de ambiente no arquivo .env.local / painel da Vercel)
- * os canais oficiais de atendimento, e-mail comercial e redes sociais da NEXORA.
+ * os canais oficiais de atendimento, e-mail comercial e redes sociais da NORDARA.
  */
 
 export interface SiteConfig {
@@ -42,11 +42,11 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "NEXORA",
+  name: "NORDARA",
   tagline: "TECNOLOGIA QUE MOVE NEGÓCIOS.",
   positioning:
     "Criamos sites, sistemas e soluções digitais para transformar ideias em grandes conquistas.",
-  domain: process.env.NEXT_PUBLIC_SITE_URL || "https://nexora.digital",
+  domain: process.env.NEXT_PUBLIC_SITE_URL || "https://nordara.digital",
   locale: "pt-BR",
   contact: {
     whatsappNumber: (
@@ -72,14 +72,14 @@ export const siteConfig: SiteConfig = {
   },
   whatsappMessages: {
     default:
-      "Olá! Vim pelo site da NEXORA e gostaria de solicitar um orçamento para criação de um site profissional para minha empresa.",
+      "Olá! Vim pelo site da NORDARA e gostaria de solicitar um orçamento para criação de um site profissional para minha empresa.",
     portfolioInquiry: (projectName: string) =>
-      `Olá! Vi o projeto ${projectName} no portfólio da NEXORA e gostaria de conversar sobre a criação de um site desse nível para o meu negócio.`,
+      `Olá! Vi o projeto ${projectName} no portfólio da NORDARA e gostaria de conversar sobre a criação de um site desse nível para o meu negócio.`,
     serviceInquiry: (serviceName: string) =>
-      `Olá! Tenho interesse na criação de ${serviceName} com a NEXORA e gostaria de solicitar um orçamento personalizado.`,
+      `Olá! Tenho interesse na criação de ${serviceName} com a NORDARA e gostaria de solicitar um orçamento personalizado.`,
     customBriefing: ({ name, company, projectType, investment, description }) => {
       const lines = [
-        `Olá, equipe NEXORA! Solicito análise de orçamento para criação de site:`,
+        `Olá, equipe NORDARA! Solicito análise de orçamento para criação de site:`,
         ``,
         `• *Nome:* ${name}`,
         company ? `• *Empresa:* ${company}` : null,

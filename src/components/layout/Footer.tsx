@@ -68,7 +68,7 @@ export function Footer({
             <NexoraLogo variant="full" theme="dark" size="lg" showTagline />
 
             <p className="font-display text-base font-semibold text-white">
-              NEXORA — Transformando ideias em experiências digitais.
+              NORDARA — Transformando ideias em experiências digitais.
             </p>
 
             <p className="text-xs sm:text-sm text-slate-400 leading-relaxed">
@@ -86,7 +86,7 @@ export function Footer({
                 { id: "inicio", label: "Início" },
                 { id: "portfolio", label: "Portfólio" },
                 { id: "servicos", label: "Serviços (Sites)" },
-                { id: "diferenciais", label: "Sobre a NEXORA" },
+                { id: "diferenciais", label: "Sobre a NORDARA" },
                 { id: "metodologia", label: "Metodologia" },
                 { id: "orcamento", label: "Solicitar Orçamento" },
               ].map((link) => (
@@ -209,7 +209,7 @@ export function Footer({
         {/* Bottom Copyright & Legal Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <div>
-            © {new Date().getFullYear()} NEXORA — Agência de Desenvolvimento
+            © {new Date().getFullYear()} NORDARA — Agência de Desenvolvimento
             Digital, Design e Tecnologia. Todos os direitos reservados.
           </div>
 
@@ -230,8 +230,8 @@ export function Footer({
             </button>
             <Link
               href="/prospeccao"
-              title="Acesso restrito NEXORA"
-              aria-label="Acesso restrito NEXORA"
+              title="Acesso restrito NORDARA"
+              aria-label="Acesso restrito NORDARA"
               className="text-slate-600 hover:text-[#00E5FF] transition-colors"
             >
               <Lock className="w-3.5 h-3.5" />

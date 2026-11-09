@@ -39,7 +39,7 @@ export function NexoraHeroCore({
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
       className="relative w-full h-[340px] sm:h-[440px] lg:h-full flex items-center justify-center select-none overflow-hidden"
-      aria-label="Monólito 3D NEXORA em Ultra-HD sobre pedestal holográfico"
+      aria-label="Monólito 3D NORDARA em Ultra-HD sobre pedestal holográfico"
     >
       {/* Ambient Deep Space & Pedestal Glows */}
       <div
@@ -65,7 +65,7 @@ export function NexoraHeroCore({
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
           role="img"
-          aria-label="Monólito 3D NEXORA"
+          aria-label="Monólito 3D NORDARA"
         >
           <defs>
             {/* Neon Bloom Filters (100% Mobile & Desktop Compatible) */}

@@ -114,7 +114,7 @@ export const methodologySteps: MethodologyStep[] = [
 export const differentiatorsData: DifferentiatorItem[] = [
   {
     id: "desenvolvimento-personalizado",
-    code: "NX-01",
+    code: "ND-01",
     title: "Desenvolvimento personalizado",
     description:
       "Cada projeto nasce do zero a partir da realidade e dos objetivos da sua empresa. Não adaptamos templates genéricos nem forçamos seu negócio a caber em estruturas prontas.",
@@ -123,7 +123,7 @@ export const differentiatorsData: DifferentiatorItem[] = [
   },
   {
     id: "design-para-cada-negocio",
-    code: "NX-02",
+    code: "ND-02",
     title: "Design pensado para cada negócio",
     description:
       "Uma clínica médica, uma instituição educacional e uma startup de IA exigem linguagens visuais distintas. Construímos direção de arte autoral alinhada ao seu público.",
@@ -132,7 +132,7 @@ export const differentiatorsData: DifferentiatorItem[] = [
   },
   {
     id: "experiencia-responsiva",
-    code: "NX-03",
+    code: "ND-03",
     title: "Experiência responsiva",
     description:
       "Mais do que encaixar elementos na tela do celular, planejamos a ergonomia de toque, a leitura tipográfica e os menus especificamente para smartphones, tablets e monitores widescreen.",
@@ -141,7 +141,7 @@ export const differentiatorsData: DifferentiatorItem[] = [
   },
   {
     id: "navegacao-intuitiva",
-    code: "NX-04",
+    code: "ND-04",
     title: "Navegação intuitiva",
     description:
       "Organizamos informações complexas em fluxos claros e naturais, permitindo que o visitante compreenda sua proposta de valor e encontre o que procura sem esforço.",
@@ -150,7 +150,7 @@ export const differentiatorsData: DifferentiatorItem[] = [
   },
   {
     id: "performance-otimizacao",
-    code: "NX-05",
+    code: "ND-05",
     title: "Performance e otimização",
     description:
       "Desenvolvemos aplicações enxutas, com imagens otimizadas em formatos modernos, carregamento inteligente e transições fluidas que não sacrificam a velocidade.",
@@ -159,7 +159,7 @@ export const differentiatorsData: DifferentiatorItem[] = [
   },
   {
     id: "tecnologias-modernas",
-    code: "NX-06",
+    code: "ND-06",
     title: "Tecnologias modernas",
     description:
       "Utilizamos o mesmo ecossistema tecnológico adotado pelas principais empresas globais de tecnologia, garantindo segurança, estabilidade e facilidade de evolução futura.",
@@ -168,7 +168,7 @@ export const differentiatorsData: DifferentiatorItem[] = [
   },
   {
     id: "acompanhamento-desenvolvimento",
-    code: "NX-07",
+    code: "ND-07",
     title: "Acompanhamento durante o desenvolvimento",
     description:
       "Você participa das decisões-chave com transparência e proximidade, validando a estratégia, o design e a evolução funcional em etapas claras do início à entrega.",
