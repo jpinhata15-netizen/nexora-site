@@ -46,7 +46,7 @@ export const siteConfig: SiteConfig = {
   tagline: "TECNOLOGIA QUE MOVE NEGÓCIOS.",
   positioning:
     "Criamos sites, sistemas e soluções digitais para transformar ideias em grandes conquistas.",
-  domain: process.env.NEXT_PUBLIC_SITE_URL || "https://nordara.digital",
+  domain: process.env.NEXT_PUBLIC_SITE_URL || "https://www.nordara.com.br",
   locale: "pt-BR",
   contact: {
     whatsappNumber: (

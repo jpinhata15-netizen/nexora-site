@@ -123,7 +123,7 @@ export default function ProspeccaoPage() {
   const [recipientEmail, setRecipientEmail] = useState("");
   const [segment, setSegment] = useState<SegmentKey>("empresa-comercio");
   const [customObservation, setCustomObservation] = useState("");
-  const [portfolioUrl, setPortfolioUrl] = useState("https://nexora-site-topaz.vercel.app");
+  const [portfolioUrl, setPortfolioUrl] = useState("https://www.nordara.com.br");
 
   // Lista de prospecção (CRM salvo no navegador)
   const [leads, setLeads] = useState<LeadItem[]>([]);
